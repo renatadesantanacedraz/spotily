@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0,0,0, 0.6);
+    height: 105px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 160px;
+    margin-top: 40px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+li a{
+    color: white;
+}
+
+nav li a:hover {
+    color: #57b55f;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: white;
+    padding-top: 350px;
+    padding-left: 500px;
+    background-image: url("../img/bkg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+
+}
+
+.logo{
+    width: 175px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.slogan{
+    font-size: 97px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn-verde{
+    background-color: #57b55f;
+    width: 470px;
+    margin-right: 5px;
+}
+
+.btn-branco{
+    background-color: rgba( 0, 0, 0, 0);
+    border: 2px solid white;
+    width: 420px;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+.guia{
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    position: absolute;
+}
+
+.section2{
+    width: 700px;
+}
+.texto1{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+.caixaesquerda{
+    float: left;
+    color: #474a4f;
+}
+.caixadireita{
+    float: right;
+
+}
